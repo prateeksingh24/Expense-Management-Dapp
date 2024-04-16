@@ -38,6 +38,9 @@ dependencies:
   flutter_bloc: ^8.1.5
   bloc: ^8.1.4
   flutter_svg: ^2.0.10+1
+  web3dart: ^2.7.3
+  http: ^1.2.0
+  web_socket_channel: ^2.4.0
 
 dev_dependencies:
   flutter_test:
@@ -62,6 +65,10 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
+  assets:
+    - lib/features/debit/
+    - build/contracts/
+
 assets:
   - assets/ethLogo.png
 

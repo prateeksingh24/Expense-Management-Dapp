@@ -1,4 +1,4 @@
-import 'package:expense_management_dapp_app/dashboard/ui/dasboard_page.dart';
+import 'package:expense_management_dapp_app/features/dashboard/ui/dasboard_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
